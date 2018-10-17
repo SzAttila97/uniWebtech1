@@ -32,6 +32,13 @@ var cars = [
         "available":1,
         "horsepower":50
     }
+    {"name": "Focus",
+    "consumption":"5/100km",
+    "color": "blue",
+    "manufacturer": "Ford",
+    "available":1,
+    "year":2018,
+    "horsepower":120
     ];
 app.use(express.static(__dirname + '/student'));
 app.use(cookieParser());
